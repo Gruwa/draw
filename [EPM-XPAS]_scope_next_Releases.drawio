@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Сторінка-1" id="smZylFU8Ez6Xz393hW2x">
-    <mxGraphModel dx="1242" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2411" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,17 +13,49 @@
         <mxCell id="no2RGBAZu8elhLlSzY0b-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no2RGBAZu8elhLlSzY0b-1" target="no2RGBAZu8elhLlSzY0b-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="no2RGBAZu8elhLlSzY0b-1" value="MVP Release" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="60" width="120" height="60" as="geometry" />
+        <mxCell id="no2RGBAZu8elhLlSzY0b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="no2RGBAZu8elhLlSzY0b-1" target="no2RGBAZu8elhLlSzY0b-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-1" value="Features that were moved out from MVP scope" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="no2RGBAZu8elhLlSzY0b-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;Harvester feature&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;- Aggregation data from shelters&lt;br&gt;- Parsing data&lt;br&gt;- Put data to the database&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="190" width="240" height="150" as="geometry" />
+          <mxGeometry x="-300" y="190" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="no2RGBAZu8elhLlSzY0b-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Communication feature&lt;/h1&gt;&lt;p&gt;Was moved from MVP scope&lt;br&gt;size - XXL&lt;br&gt;&lt;br&gt;- Chat between Volontures and Adobtors.&amp;nbsp;&lt;br&gt;- AI assistant that will:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- help to bring some animals for the adoptor&#39;s needs&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- help to select the right food and accessories for the pet&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- basic medical recommendations&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- recommendations for pets with special needs&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;-&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="190" width="360" height="280" as="geometry" />
+          <mxGeometry x="60" y="190" width="360" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="no2RGBAZu8elhLlSzY0b-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;Search&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Search animals on the platform&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="no2RGBAZu8elhLlSzY0b-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;Search&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Search animals on the platform&lt;br&gt;&lt;br&gt;Size - M&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="190" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;Add Found Pet Profile&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;Animals that weren&#39;t bound with any shelter in case they were lost&lt;br&gt;&lt;br&gt;size - S&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no2RGBAZu8elhLlSzY0b-10" target="no2RGBAZu8elhLlSzY0b-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no2RGBAZu8elhLlSzY0b-10" target="no2RGBAZu8elhLlSzY0b-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no2RGBAZu8elhLlSzY0b-10" target="no2RGBAZu8elhLlSzY0b-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="no2RGBAZu8elhLlSzY0b-10" target="no2RGBAZu8elhLlSzY0b-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-10" value="MVP Release" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UI re-design feature&lt;/h1&gt;&lt;p&gt;Full platform visual re-design&lt;br&gt;&lt;br&gt;size XXL&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1664" y="-20" width="276" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Refactoring&lt;/h1&gt;&lt;p&gt;Technical refactoring BE, FE features that were implemented in MVP Release&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="-20" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="no2RGBAZu8elhLlSzY0b-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;AQA feature&lt;/h1&gt;&lt;p&gt;- AI to provide AQA tests&lt;br&gt;- Implementation AQA framework in CI/CD pipeline&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-20" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
