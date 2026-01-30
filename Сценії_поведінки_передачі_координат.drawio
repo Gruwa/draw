@@ -1,9 +1,343 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="p1bpcCXy83JR7SBo4q0R">
-    <mxGraphModel>
+    <mxGraphModel dx="6833" dy="2780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-1" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Борт" vertex="1">
+          <mxGeometry height="60" width="120" x="3100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-3" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Дані про знаходження борта" vertex="1">
+          <mxGeometry height="280" width="140" x="3090" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-4" parent="CpVzmpRvyRV3xOV4V9Bq-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Без впливу - GPS координати" vertex="1">
+          <mxGeometry height="50" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-5" parent="CpVzmpRvyRV3xOV4V9Bq-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Під впливом РЕБ - відсутність GPS координат" vertex="1">
+          <mxGeometry height="60" width="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-6" parent="CpVzmpRvyRV3xOV4V9Bq-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Під впливом РЕБ - підміна GPS координат (спуфінг)" vertex="1">
+          <mxGeometry height="70" width="140" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-7" parent="CpVzmpRvyRV3xOV4V9Bq-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Відсутність даних від борта" vertex="1">
+          <mxGeometry height="70" width="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-8" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-9" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-10" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Під впливом - відстуність GPS координат&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Борт не має можливості ередати свої достовірні координати в реальному часі знаходячись під впливом засобів і не бачачі жодного із супутників&lt;/p&gt;" vertex="1">
+          <mxGeometry height="200" width="240" x="3110" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-12" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-13" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-14" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Під впливом - не достовірні GPS координати&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Борт передає свої НЕ достовірні координати в реальному часі знаходячись під впливом засобів бачачі підставні супутників&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="290" x="1560" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-15" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CpVzmpRvyRV3xOV4V9Bq-45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-16" connectable="0" parent="CpVzmpRvyRV3xOV4V9Bq-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;немає координат&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.121" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-17" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="1150" as="sourcePoint" />
+            <mxPoint x="1410" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-18" connectable="0" parent="CpVzmpRvyRV3xOV4V9Bq-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="координати положення не співпдають&lt;div&gt;із глобальним положенням&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1048" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-19" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-51" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="850" as="sourcePoint" />
+            <mxPoint x="910" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-20" connectable="0" parent="CpVzmpRvyRV3xOV4V9Bq-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;координати співпадають&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;із глобальним положенням&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0646" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-21" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CpVzmpRvyRV3xOV4V9Bq-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-22" connectable="0" parent="CpVzmpRvyRV3xOV4V9Bq-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="так" vertex="1">
+          <mxGeometry relative="1" x="-0.05" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Є координати?" vertex="1">
+          <mxGeometry height="200" width="175" x="1322.5" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-24" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Перевірка" vertex="1">
+          <mxGeometry height="120" width="240" x="1290" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-26" parent="CpVzmpRvyRV3xOV4V9Bq-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Отримання&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;координат&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-27" parent="CpVzmpRvyRV3xOV4V9Bq-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Отримання глобалного положення" vertex="1">
+          <mxGeometry height="30" width="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-28" parent="CpVzmpRvyRV3xOV4V9Bq-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- Порівняння отриманих результатів" vertex="1">
+          <mxGeometry height="30" width="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Можливості" vertex="1">
+          <mxGeometry height="470" width="465" x="250" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-30" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення на мапі борта" vertex="1">
+          <mxGeometry height="30" width="465" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-31" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- зелений вогник що є звʼязок із бортом" vertex="1">
+          <mxGeometry height="30" width="465" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-32" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення останньої інформації по борту" vertex="1">
+          <mxGeometry height="30" width="465" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-33" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- автоматичне супроводження борту антеною (довертання на потрібний кут у автоматично режимі)" vertex="1">
+          <mxGeometry height="50" width="465" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-34" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- запис логу" vertex="1">
+          <mxGeometry height="50" width="465" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-35" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість прогнозування подальшого місце положення борту на основі покажників" vertex="1">
+          <mxGeometry height="50" width="465" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-36" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість вимкнення автоматичного режиму переходом у ручний режим" vertex="1">
+          <mxGeometry height="50" width="465" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-37" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість введення в ручному режимі координат - заблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-38" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість повороту антену взаємодією із мапою - заблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-39" parent="CpVzmpRvyRV3xOV4V9Bq-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відкрит доступ до налаштувань" vertex="1">
+          <mxGeometry height="50" width="465" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-40" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Співпадають із глобальним положенням?" vertex="1">
+          <mxGeometry height="170" width="145" x="1337.5" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-41" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-42" connectable="0" parent="CpVzmpRvyRV3xOV4V9Bq-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="&lt;font&gt;так&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0636" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-43" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-48" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1745" y="990" as="sourcePoint" />
+            <mxPoint x="1855" y="1392.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-44" connectable="0" parent="CpVzmpRvyRV3xOV4V9Bq-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="немає" vertex="1">
+          <mxGeometry relative="1" x="-0.0602" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-45" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="є дані по відносному полодженню?" vertex="1">
+          <mxGeometry height="165" width="190" x="2340" y="762.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-46" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-47" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-48" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Під впливом - не має GPS координат і відносному положенню&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Борт НЕ передає ніяких даних по телеметрії&lt;/p&gt;" vertex="1">
+          <mxGeometry height="135" width="320" x="4900" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-49" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-50" edge="1" parent="1" source="CpVzmpRvyRV3xOV4V9Bq-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CpVzmpRvyRV3xOV4V9Bq-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-51" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Без впливу - достовірні GPS координати&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;Борт передає свої достовірні координати в реальному часі&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="240" x="810" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-52" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Можливості" vertex="1">
+          <mxGeometry height="520" width="465" x="1472.5" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-53" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення на мапі борта" vertex="1">
+          <mxGeometry height="30" width="465" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-54" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- жовтий вогник що є звʼязок із бортом але потрібно бути уважним" vertex="1">
+          <mxGeometry height="30" width="465" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-55" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення останньої інформації по борту" vertex="1">
+          <mxGeometry height="30" width="465" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-56" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- автоматичне супроводження борту антеною (довертання на потрібний кут у автоматично режимі) але береться до уваги відносне положення" vertex="1">
+          <mxGeometry height="50" width="465" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-57" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- запис логу" vertex="1">
+          <mxGeometry height="50" width="465" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-58" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість прогнозування подальшого місце положення борту на основі покажників" vertex="1">
+          <mxGeometry height="50" width="465" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-59" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- підсвічення підказки при різкому зміні координат борта на великі відстані що відбувається ймовірна підміна координат" vertex="1">
+          <mxGeometry height="50" width="465" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-60" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість вимкнення автоматичного режиму переходом у ручний режим" vertex="1">
+          <mxGeometry height="50" width="465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-61" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість введення в ручному режимі координат - заблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-62" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість повороту антену взаємодією із мапою - заблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-63" parent="CpVzmpRvyRV3xOV4V9Bq-52" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відкрит доступ до налаштувань" vertex="1">
+          <mxGeometry height="50" width="465" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-64" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Умова" vertex="1">
+          <mxGeometry height="120" width="440" x="2070" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-65" parent="CpVzmpRvyRV3xOV4V9Bq-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- порівняння позиції по GPS і відносному положенню якщо&amp;nbsp; велике розходження та відбувається&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;послаблення сигналу при використанні&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-66" parent="CpVzmpRvyRV3xOV4V9Bq-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-67" parent="CpVzmpRvyRV3xOV4V9Bq-64" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-68" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Умова" vertex="1">
+          <mxGeometry height="120" width="440" x="870" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-69" parent="CpVzmpRvyRV3xOV4V9Bq-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- порівняння позиції по GPS і відносному положенню якщо&amp;nbsp;мале розходження та відбувається&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;постійне спостерігання сильного сигналу&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-70" parent="CpVzmpRvyRV3xOV4V9Bq-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- дані приходять постійно без стрибків в позиціюванні" vertex="1">
+          <mxGeometry height="30" width="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-71" parent="CpVzmpRvyRV3xOV4V9Bq-68" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-72" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Можливості" vertex="1">
+          <mxGeometry height="520" width="465" x="2997.5" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-73" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення на мапі борта" vertex="1">
+          <mxGeometry height="30" width="465" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-74" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- жовтий вогник що є звʼязок із бортом але потрібно бути уважним" vertex="1">
+          <mxGeometry height="30" width="465" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-75" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення останньої інформації по борту" vertex="1">
+          <mxGeometry height="30" width="465" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-76" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- автоматичне супроводження борту антеною (довертання на потрібний кут у автоматично режимі) по відносному положенню" vertex="1">
+          <mxGeometry height="50" width="465" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-77" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- запис логу" vertex="1">
+          <mxGeometry height="50" width="465" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-78" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість прогнозування подальшого місце положення борту на основі покажників" vertex="1">
+          <mxGeometry height="50" width="465" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-79" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="465" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-80" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість вимкнення автоматичного режиму переходом у ручний режим" vertex="1">
+          <mxGeometry height="50" width="465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-81" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість введення в ручному режимі координат - заблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-82" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість повороту антену взаємодією із мапою - заблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-83" parent="CpVzmpRvyRV3xOV4V9Bq-72" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відкрит доступ до налаштувань" vertex="1">
+          <mxGeometry height="50" width="465" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-84" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Умова" vertex="1">
+          <mxGeometry height="120" width="440" x="3670" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-85" parent="CpVzmpRvyRV3xOV4V9Bq-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відсутність GPS координат і присутність інформації про відносне положення" vertex="1">
+          <mxGeometry height="30" width="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-86" parent="CpVzmpRvyRV3xOV4V9Bq-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-87" parent="CpVzmpRvyRV3xOV4V9Bq-84" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-88" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Можливості" vertex="1">
+          <mxGeometry height="520" width="465" x="4490" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-89" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення на мапі борта в точці його останньої отриманої телеметрії" vertex="1">
+          <mxGeometry height="30" width="465" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-90" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- червоний вогник що немає звʼязку із бортом і потрібно перейти у ручний режим керування антеною" vertex="1">
+          <mxGeometry height="30" width="465" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-91" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відображення останньої інформації по борту" vertex="1">
+          <mxGeometry height="30" width="465" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-92" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відсутність супроводження борту антеною в режимі очіквання" vertex="1">
+          <mxGeometry height="50" width="465" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-93" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- запис логу" vertex="1">
+          <mxGeometry height="50" width="465" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-94" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відсутність можливісті прогнозування подальшого місце положення борту на основі покажників" vertex="1">
+          <mxGeometry height="50" width="465" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-95" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="465" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-96" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- підсвічується підказка о необхідності перейти у ручний режим щоб привернути увагу оператора" vertex="1">
+          <mxGeometry height="50" width="465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-97" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість введення в ручному режимі координат - розблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-98" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- можливість повороту антену взаємодією із мапою - розблоковано" vertex="1">
+          <mxGeometry height="50" width="465" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-99" parent="CpVzmpRvyRV3xOV4V9Bq-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відкрит доступ до налаштувань" vertex="1">
+          <mxGeometry height="50" width="465" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-100" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Умова" vertex="1">
+          <mxGeometry height="120" width="440" x="5250" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-101" parent="CpVzmpRvyRV3xOV4V9Bq-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- відсутність GPS координат та інформації про відносне положення" vertex="1">
+          <mxGeometry height="30" width="440" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-102" parent="CpVzmpRvyRV3xOV4V9Bq-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CpVzmpRvyRV3xOV4V9Bq-103" parent="CpVzmpRvyRV3xOV4V9Bq-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="-&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="440" y="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
